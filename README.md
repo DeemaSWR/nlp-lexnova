@@ -52,19 +52,6 @@ Several visualizations were created to analyze the dataset and model performance
 - **Distribution of Fake vs. Real News in training data**
 - **Distribution of Fake vs. Real News in validation data**
 
-## How to Use the Model
-1. Ensure required dependencies are installed:
-   ```sh
-   pip install -r requirements.txt
-   ```
-2. Run the script to train the model and classify the validation dataset:
-   ```sh
-   python train_model.py
-   ```
-3. The updated predictions will be stored in:
-   ```
-   dataset/validation_data_updated.csv
-   ```
 
 ## Future Improvements
 - Experiment with **Transformer-based models** (e.g., BERT, RoBERTa) for improved performance.
